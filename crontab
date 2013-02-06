@@ -1,0 +1,3 @@
+# Crontab for GYB user
+GYB_SCRIPT=/opt/GYB/emailbackup-all.sh
+00 */6 * * * $GYB_SCRIPT
